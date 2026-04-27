@@ -1,0 +1,19 @@
+node_modules/
+.claude/
+.env
+.env.local
+.env.*.local
+
+# Supabase
+packages/backend/supabase/.branches/
+packages/backend/supabase/.temp/
+packages/backend/supabase/functions/.cache/
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+
+# OS
+.DS_Store
+Thumbs.db

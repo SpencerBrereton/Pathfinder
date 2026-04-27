@@ -1,0 +1,12 @@
+{
+  "name": "@pathfinder/backend",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "supabase:start": "supabase start",
+    "supabase:stop": "supabase stop",
+    "supabase:reset": "supabase db reset",
+    "supabase:test": "supabase test db",
+    "supabase:status": "supabase status"
+  }
+}

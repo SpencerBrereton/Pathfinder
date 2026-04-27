@@ -1,0 +1,7 @@
+services:
+  gis:
+    build: .
+    ports:
+      - "8001:8000"
+    environment:
+      - GIS_ENV=development

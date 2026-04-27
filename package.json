@@ -1,0 +1,19 @@
+{
+  "name": "pathfinder",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "backend:start": "pnpm --filter backend supabase:start",
+    "backend:stop": "pnpm --filter backend supabase:stop",
+    "backend:reset": "pnpm --filter backend supabase:reset",
+    "backend:test": "pnpm --filter backend supabase:test",
+    "typecheck": "pnpm -r typecheck",
+    "lint": "pnpm -r lint"
+  },
+  "devDependencies": {
+    "eslint": "^10.2.1",
+    "supabase": "^2.22.6",
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.59.1"
+  }
+}
